@@ -1,0 +1,36 @@
+:root {
+    --color-primary-100: #9B71EF; /* Light shade */
+    --color-primary-500: #5818D8; /* Main shade */
+    --color-primary-900: #4518D8; /* Dark shade */   
+  
+    --color-secondary-100: #FAFAFA; /* Light shade */
+    --color-secondary-500: #E5E5E5; /* Main shade */
+    --color-secondary-900: white;   /* Dark shade */  
+    --color-secondary-contrast: black;   /* contrast of the secondary color*/  
+
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media (prefers-color-scheme: dark) {
+  
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

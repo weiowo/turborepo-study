@@ -5,7 +5,16 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "theme-1-black-gold": "node theme-and-color.js --filter=theme-1 color=black-gold && turbo run dev --filter=theme-1",
+    "theme-1-purple-white": "node theme-and-color.js --filter=theme-1 color=purple-white && turbo run dev --filter=theme-1",
+    "theme-1-purple-black": "node theme-and-color.js --filter=theme-1 color=purple-black && turbo run dev --filter=theme-1",
+    "theme-2-black-gold": "node theme-and-color.js --filter=theme-2 color=black-gold && turbo run dev --filter=theme-2",
+    "theme-2-purple-white": "node theme-and-color.js --filter=theme-2 color=purple-white && turbo run dev --filter=theme-2",
+    "theme-2-purple-black": "node theme-and-color.js --filter=theme-2 color=purple-black && turbo run dev --filter=theme-2",
+    "theme-3-black-gold": "node theme-and-color.js --filter=theme-3 color=black-gold && turbo run dev --filter=theme-3",
+    "theme-3-purple-white": "node theme-and-color.js --filter=theme-3 color=purple-white && turbo run dev --filter=theme-3",
+    "theme-3-purple-black": "node theme-and-color.js --filter=theme-3 color=purple-black && turbo run dev --filter=theme-3"
   },
   "devDependencies": {
     "prettier": "^3.2.5",

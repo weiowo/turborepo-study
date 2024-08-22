@@ -1,0 +1,11 @@
+:root {
+  --color-primary-100: #FEE35B; /* Light shade */
+  --color-primary-500: #F59E0B; /* Main shade */
+  --color-primary-900: #F59E0B; /* Dark shade */   
+
+  --color-secondary-100: #404040; /* Light shade */
+  --color-secondary-500: #262626  ; /* Main shade */
+  --color-secondary-900: black; /* Dark shade */   
+  --color-secondary-contrast: white;   /* contrast of the secondary color*/  
+
+  }
