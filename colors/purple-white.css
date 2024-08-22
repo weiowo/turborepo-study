@@ -6,6 +6,6 @@
     --color-secondary-100: #FAFAFA; /* Light shade */
     --color-secondary-500: #E5E5E5; /* Main shade */
     --color-secondary-900: white;   /* Dark shade */  
-    --color-secondary-contrast: black;   /* contrast of the secondary color*/  
-
+    --color-secondary-contrast: black;   /* contrast of the secondary color*/ 
+    --linear: linear-gradient(#5818D8, #5818D8);  
 }

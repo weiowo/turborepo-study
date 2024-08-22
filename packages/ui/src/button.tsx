@@ -9,9 +9,12 @@ interface ButtonProps {
 }
 
 export const Button = ({ children, className }: ButtonProps) => {
-  return (
-    <button className={clsx('flex w-full items-center justify-center bg-primary-500 text-secondary-500 gap-2 rounded-full p-3', className)}>
+  return (    
+    <button 
+    className={clsx('flex w-full text-base font-semibold items-center',
+    'justify-center gap-2 bg-linear text-secondary-500 rounded-3xl p-3', className)}>
       {children}
     </button>
   );
 };
+

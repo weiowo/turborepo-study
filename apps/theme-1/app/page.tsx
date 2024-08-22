@@ -10,7 +10,7 @@ export default function Home() {
      </div>
      <div className='border border-gray h-[250px] bg-secondary-500 w-full p-4 rounded-t-xl border-white'>
       <Button>Log in</Button>
-      <Button className="bg-secondary-100 text-secondary-contrast mt-4">Google</Button>
+      <Button className="bg-none bg-secondary-100 text-secondary-contrast mt-4">Google</Button>
      </div>
     </main>
   );

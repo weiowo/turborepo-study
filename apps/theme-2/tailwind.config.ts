@@ -24,6 +24,9 @@ const config: Config = {
         },
         ...sharedConfig?.theme?.extend?.colors || {},
       },
+      backgroundImage:{
+        linear: "var(--linear)",
+      }
     },
   },
   plugins: [],

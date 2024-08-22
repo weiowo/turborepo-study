@@ -20,10 +20,13 @@ const config: Config = {
           100: "var(--color-secondary-100)", // Light shade
           500: "var(--color-secondary-500)", // Main shade
           900: "var(--color-secondary-900)", // Dark shade
-          contrast: "var(--color-secondary-contrast)"
+          contrast: "var(--color-secondary-contrast)" 
         },
         ...sharedConfig?.theme?.extend?.colors || {},
       },
+      backgroundImage:{
+        linear: "var(--linear)",
+      }
     },
   },
   plugins: [],
